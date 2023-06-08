@@ -15,13 +15,12 @@
   <a href="#BUILT WITH">BUILT WITH</a> •
   <a href="#INSTALLATION">INSTALLATION</a> •
   <a href="#USAGE">USAGE</a> •
+  <a href="#RESOURCES">RESOURCES</a> •
 </p>
 
 ## DESCRIPTION
 <p>
-
-ft_printf is a custom implementation of the printf function in C. This project aims to replicate some of the functionality of the standard printf function.
-it's a rich example of a variadic function, it allows you to format and print text to the consoles. It supports placeholders for various data types, such as strings, characters and ints.
+ft_printf is a custom implementation of the printf function in C. This project aims to replicate some of its functionality. It's a rich example of a variadic function, as it allows you to format and write output to STDOUT. It supports placeholders for various data types, such as strings, characters and integers.
 </p>
 
 ## BUILT WITH
@@ -51,3 +50,8 @@ make
 ```bash
 gcc project.c libftprintf.a
 ```
+
+## RESOURCES
+- [variadic functions (fr)](https://x0r.fr/blog/31?utm_source=pocket_saves)
+- [variadic functions mechanism in c](https://learn.microsoft.com/en-us/cpp/c-runtime-library/reference/va-arg-va-copy-va-end-va-start?utm_source=pocket_saves&view=msvc-170)
+- [difference between %i and %d](https://www.geeksforgeeks.org/difference-d-format-specifier-c-language/?utm_source=pocket_reader)
